@@ -1,18 +1,18 @@
-# Default values for myChart.
+# Default values for ejemplo.
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
 
 replicaCount: 1
 
 image:
-  repository: networkstatic/iperf3
+  repository: ubuntu-upstart
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
   tag: ""
 
 imagePullSecrets: []
-nameOverride: "miapp"
-fullnameOverride: "miapp"
+nameOverride: ""
+fullnameOverride: ""
 
 serviceAccount:
   # Specifies whether a service account should be created
@@ -21,9 +21,9 @@ serviceAccount:
   annotations: {}
   # The name of the service account to use.
   # If not set and create is true, a name is generated using the fullname template
-  name: "miapp"
+  name: ""
 
-podAnnotations: {}
+podAnnotations: {k8s.v1.cni.cncf.io/networks: bridge-conf}
 
 podSecurityContext: {}
   # fsGroup: 2000
@@ -37,8 +37,8 @@ securityContext: {}
   # runAsUser: 1000
 
 service:
-  type: NodePort
-  port: 80
+  type: ClusterIP
+  port: 80 
 
 ingress:
   enabled: false
