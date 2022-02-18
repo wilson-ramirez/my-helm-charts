@@ -3,11 +3,11 @@ entries:
   ejemplo:
   - apiVersion: v2
     appVersion: latest
-    created: "2022-02-18T10:43:06.54329483Z"
+    created: "2022-02-18T16:39:41.722023473Z"
     description: A Helm chart for Kubernetes
-    digest: 8713e01419a7c82e2dfabce7f1995dfafa8c2a7575ed54d819eb5f8dff17e30d
+    digest: 89a3f7e01bb9d284373e11eaa1de1ceeb8f0d52930650457f1963252a2ed02f2
     name: ejemplo
     urls:
     - https://github.com/wilson-ramirez/my-helm-charts/releases/download/ejemplo-0.1.0/ejemplo-0.1.0.tgz
     version: 0.1.0
-generated: "2022-02-18T10:43:06.240604835Z"
+generated: "2022-02-18T16:39:41.424213447Z"
