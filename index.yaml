@@ -1,13 +1,13 @@
 apiVersion: v1
 entries:
-  mychart:
+  ejemplo:
   - apiVersion: v2
-    appVersion: 1.16.0
-    created: "2022-02-14T18:04:54.360293728Z"
+    appVersion: latest
+    created: "2022-02-18T10:43:06.54329483Z"
     description: A Helm chart for Kubernetes
-    digest: df2a86b055de53cc546c3816e2d3db6be89662f1347fb966a60fc6b71413fe05
-    name: mychart
+    digest: 8713e01419a7c82e2dfabce7f1995dfafa8c2a7575ed54d819eb5f8dff17e30d
+    name: ejemplo
     urls:
-    - https://github.com/wilson-ramirez/my-helm-charts/releases/download/mychart-0.1.0/mychart-0.1.0.tgz
+    - https://github.com/wilson-ramirez/my-helm-charts/releases/download/ejemplo-0.1.0/ejemplo-0.1.0.tgz
     version: 0.1.0
-generated: "2022-02-14T18:04:54.0243098Z"
+generated: "2022-02-18T10:43:06.240604835Z"
