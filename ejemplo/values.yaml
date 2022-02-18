@@ -23,7 +23,7 @@ serviceAccount:
   # If not set and create is true, a name is generated using the fullname template
   name: ""
 
-podAnnotations: {k8s.v1.cni.cncf.io/networks: bridge-conf}
+podAnnotations: {k8s.v1.cni.cncf.io/networks: bridgeosm-conf}
 
 podSecurityContext: {}
   # fsGroup: 2000
