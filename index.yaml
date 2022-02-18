@@ -10,4 +10,14 @@ entries:
     urls:
     - https://github.com/wilson-ramirez/my-helm-charts/releases/download/ejemplo-0.1.0/ejemplo-0.1.0.tgz
     version: 0.1.0
+  nuevoejemplo:
+  - apiVersion: v2
+    appVersion: latest
+    created: "2022-02-18T17:37:16.440852229Z"
+    description: A Helm chart for Kubernetes
+    digest: ab3811ce9b5b40ddebcca22fd2a95cc528ab6555ca3ed3a95f26f573e57af4f6
+    name: nuevoejemplo
+    urls:
+    - https://github.com/wilson-ramirez/my-helm-charts/releases/download/nuevoejemplo-0.1.0/nuevoejemplo-0.1.0.tgz
+    version: 0.1.0
 generated: "2022-02-18T16:39:41.424213447Z"
